@@ -1,0 +1,10 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/Users/mukund/esp/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.port": "/dev/tty.usbserial-0001",
+    "idf.toolsPath": "/Users/mukund/.espressif",
+    "idf.flashType": "UART"
+}

@@ -3,13 +3,11 @@
 
 use esp_backtrace as _;
 use esp_hal::{
-    delay::Delay,
     clock::CpuClock,
+    delay::Delay,
     gpio::{Level, Output},
     main,
 };
-
-
 
 #[main]
 fn main() -> ! {
@@ -31,7 +29,7 @@ fn main() -> ! {
     loop {
         for led in leds.iter_mut() {
             led.toggle();
-            delay.delay_millis(1000);
+            delay.delay_millis(300);
             led.toggle();
         }
     }

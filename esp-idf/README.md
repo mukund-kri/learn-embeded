@@ -46,3 +46,6 @@ Ultimately, the best choice depends on your specific project requirements and yo
 ## Rust support
 
 This one is important for me!!!!
+
+## ESP-IDF installation notes
+
